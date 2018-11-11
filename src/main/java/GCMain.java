@@ -32,10 +32,11 @@ public class GCMain {
 //            System.out.println("Asking server for status. hold on");
 //            String status_srt = tracker.getServerStatus();
 //            System.out.println("Server status: " + status_srt);
-            tracker.moveTo(0,0);
+//            tracker.moveTo(0,0);
 //            tracker.moveTo(30,20);
 //            tracker.panRelative(0,-90);
-            tracker.panRelative(0,-10);
+//            tracker.panRelative(0,-10);
+            tracker.moveToNorth();
 //            tracker.panRelative(360,0);
         }
 

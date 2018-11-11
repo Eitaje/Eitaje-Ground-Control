@@ -143,4 +143,15 @@ public class Networking {
         }
 //        return "?";
     }
+
+    public void moveToNorth(){
+        String msg1 = "/nrth *";
+        try {
+            //sending message to server
+            outputS.write(msg1.getBytes());
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
